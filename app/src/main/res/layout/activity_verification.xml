@@ -245,6 +245,7 @@
         android:layout_alignParentBottom="true"
         android:layout_below="@+id/box">
 <!--layout commited -->
+        <!--testing commit-->
         <Button
             android:id="@+id/button2"
             android:layout_width="180dp"
