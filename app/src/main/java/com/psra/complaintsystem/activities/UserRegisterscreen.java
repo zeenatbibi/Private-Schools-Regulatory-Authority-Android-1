@@ -90,7 +90,7 @@ public class UserRegisterscreen extends AppCompatActivity implements ProgressGen
             api_token  = FirebaseInstanceId.getInstance().getToken();
             //Log.e("api_token", api_token);
         }
-        //snakbar code base layout is relativelyout 
+        //snakbar code base layout is relativelyout
         relativeLayout = findViewById(R.id.base_layout);
         complaint_spinner = findViewById(R.id.complaint_spinner);
         sp_gernder = findViewById(com.psra.complaintsystem.R.id.sp);
