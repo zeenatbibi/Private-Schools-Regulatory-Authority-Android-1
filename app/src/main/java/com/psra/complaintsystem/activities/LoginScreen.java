@@ -56,7 +56,7 @@ public class LoginScreen extends AppCompatActivity {
     String eddata;
    /* SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;*/
-   //login activity map for data saveing 
+   //login activity map for data saveing
     HashMap<String, String> map = new HashMap<>();
     EditText forget_password;
     HashMap<String, String> mapdata = new HashMap<>();
