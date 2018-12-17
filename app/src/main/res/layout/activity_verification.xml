@@ -244,7 +244,7 @@
         android:layout_marginTop="30dp"
         android:layout_alignParentBottom="true"
         android:layout_below="@+id/box">
-
+<!--layout commited -->
         <Button
             android:id="@+id/button2"
             android:layout_width="180dp"
