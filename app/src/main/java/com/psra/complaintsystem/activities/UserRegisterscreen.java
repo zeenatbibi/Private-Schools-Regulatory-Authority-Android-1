@@ -88,7 +88,7 @@ public class UserRegisterscreen extends AppCompatActivity implements ProgressGen
         api_token = sharedPreferences.getString("token_key", "No Data");
         if(api_token.equals("No Data")) {
             api_token  = FirebaseInstanceId.getInstance().getToken();
-            Log.e("api_token", api_token);
+            //Log.e("api_token", api_token);
         }
         relativeLayout = findViewById(R.id.base_layout);
         complaint_spinner = findViewById(R.id.complaint_spinner);
